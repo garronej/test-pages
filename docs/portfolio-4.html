@@ -3,7 +3,7 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title>Page not found | Dynamic frontend</title>
+        <title>Portfolio 4 columns | Dynamic frontend</title>
         <!-- Mobile specific metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=no">
         <!-- Force IE9 to render in normal mode -->
@@ -228,7 +228,7 @@
                         <!-- .row start -->
                         <div class="col-md-6">
                             <!-- col-md-6 start here -->
-                            <h1>Page not found</h1>
+                            <h1>Portfolio</h1>
                         </div>
                         <!-- col-md-6 end here -->
                         <div class="col-md-6 text-right">
@@ -236,9 +236,9 @@
                             <ul class="breadcrumb">
                                 <li><a href="index.html">Home</a>
                                 </li>
-                                <li><a href="#">Pages</a>
+                                <li><a href="#">Portfolio</a>
                                 </li>
-                                <li class="active">404</li>
+                                <li class="active">Portfolio 4 columns</li>
                             </ul>
                         </div>
                         <!-- col-md-6 end here -->
@@ -247,33 +247,227 @@
                 </div>
             </section>
             <!-- SECTION END -->
-            <!-- SECTION START 404 Error -->
-            <section class="white-bg error-page pt50 pb50">
+            <!-- SECTION START PORTFOLIO -->
+            <section class="portfolio portfolio-4-columns white-bg">
                 <div class="container">
                     <!-- .container -->
-                    <div class="row">
-                        <!-- .row start -->
-                        <div class="col-md-6">
-                            <!-- col-md-6 start here -->
-                            <h1 class="error-number">404</h1>
-                        </div>
-                        <!-- col-md-6 end here -->
-                        <div class="col-md-6 text-center">
-                            <!-- col-md-6 start here -->
-                            <h1 class="s32 mt50 dib">We couldn`t find it ...</h1>
-                            <p class="s24 mt20 dib">The page you`re looking for doesn`t exist.</p>
-                            <div class="btn-group mt50" role="group">
-                                <a href="javascript: history.go(-1)" class="btn btn-default"><i class="fa fa-long-arrow-left"></i>  Go back</a>
-                                <a href="index.html" class="btn btn-default"><i class="fa fa-home"></i> Home</a>
-                                <a href="sitemap.html" class="btn btn-default"><i class="fa fa-sitemap"></i> Sitemap</a>
-                                <a href="contact.html" class="btn btn-default"><i class="fa fa-envelope"></i> Contact admin</a>
-                            </div>
-                        </div>
-                        <!-- col-md-6 end here -->
+                    <div class="tabs">
+                        <!-- Start tabs -->
+                        <ul class="nav nav-tabs nav-justified">
+                            <li class="active">
+                                <a class="filter" href="#" data-toggle="tab" data-filter="all"> All</a>
+                            </li>
+                            <li>
+                                <a class="filter" href="#" data-toggle="tab" data-filter=".person" data-type="person"> Persons</a>
+                            </li>
+                            <li>
+                                <a class="filter" href="#" data-toggle="tab" data-filter=".animals" data-type="animals"> Animals</a>
+                            </li>
+                            <li>
+                                <a class="filter" href="#" data-toggle="tab" data-filter=".nature" data-type="nature"> Nature</a>
+                            </li>
+                            <li>
+                                <a class="filter" href="#" data-toggle="tab" data-filter=".other" data-type="other"> Others</a>
+                            </li>
+                        </ul>
                     </div>
-                    <!-- / .row -->
                 </div>
                 <!-- / .container -->
+                <div class="projects relative ovh">
+                    <div class="img-holder mix other">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project1.jpg" alt="project1">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix person">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project2.jpg" alt="project2">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix other">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project3.jpg" alt="project3">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix nature">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project4.jpg" alt="project4">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix person">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project5.jpg" alt="project5">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix nature">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project6.jpg" alt="project6">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix animals">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project7.jpg" alt="project7">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix animals">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project8.jpg" alt="project8">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix nature">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project9.jpg" alt="project9">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix person">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project10.jpg" alt="project10">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix other">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project11.jpg" alt="project11">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                    <div class="img-holder mix person">
+                        <!-- col-md-3 start here -->
+                        <div class="bg-img-holder">
+                            <img src="img/projects/project12.jpg" alt="project12">
+                        </div>
+                        <div class="img-hover text-center">
+                            <a href="portfolio-item.html">
+                                <div class="img-hover-content">
+                                    <h5>Project Description</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                    <i class="fa fa-long-arrow-right"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- col-md-3 end here -->
+                </div>
+                <!-- / .projects -->
             </section>
             <!-- SECTION END -->
         </div>
@@ -479,7 +673,8 @@
         <!-- Class condition helper -->
         <script src="js/libs/classie.js"></script>
         <!-- Other plugins ( load only nessesary plugins for every page) -->
+        <script src="plugins/ui/mixitup/jquery.mixitup.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/pages/blank.js"></script>
+        <script src="js/pages/portfolio.js"></script>
     </body>
 </html>
