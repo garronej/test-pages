@@ -1,4 +1,5 @@
-![](https://github.com/garronej/test-pages/workflows/hello-world/badge.svg)
+![](https://github.com/garronej/test-pages/workflows/Greet%20Everyone/badge.svg)
+
 
 
 # test-pages
